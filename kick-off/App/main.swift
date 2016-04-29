@@ -1,5 +1,25 @@
 import Vapor
 import VaporZewoMustache
+import Fluent
+
+class Blub: Model {
+    static var entity: String = "blub"
+    var id: String?
+    
+    func serialize() -> [String: Value?] {
+        return [:]
+    }
+    
+    required init(serialized: [String: Value]) {
+        
+    }
+}
+
+let blub = Blub(serialized: ["foo": "bar"])
+
+let to = Query<Blub>()
+
+try? to.save(blub)
 
 let app = Application()
 
