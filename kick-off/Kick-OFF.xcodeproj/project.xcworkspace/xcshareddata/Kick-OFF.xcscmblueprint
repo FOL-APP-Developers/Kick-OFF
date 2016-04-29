@@ -1,0 +1,86 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5DDE0C169B6641DADA4E49B6D2FEDC4BD36031E7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8D2296B3978D73F29F92A5319CC4250CE078B90B" : 0,
+    "901D39F10963DCBC990E02C949E08901C0DDB8E3" : 0,
+    "704B817219E4CBC31AA92368EF54A4E2835A8C3D" : 0,
+    "1E72C4C11736864B9AA36A7CE5A7583666A1B027" : 0,
+    "AB3B39DF79E140C049FAA89F0028F2088162E212" : 0,
+    "287F3CCB1287376788CD8C8A6441419AFFC4A554" : 0,
+    "10A2CB6C4392F0E306FF8D509BE5E88232276EA4" : 0,
+    "BC4F18C8C7F08249E9651E82076CAED54BEAADF7" : 0,
+    "4F6C23CD1048E3CB9DF672911A1E48E51B1B842D" : 0,
+    "5DDE0C169B6641DADA4E49B6D2FEDC4BD36031E7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "06352660-65AA-4545-B2A3-93A476831CB8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8D2296B3978D73F29F92A5319CC4250CE078B90B" : "Kick-OFF\/kick-off\/Packages\/C7-0.2.0\/",
+    "901D39F10963DCBC990E02C949E08901C0DDB8E3" : "Kick-OFF\/kick-off\/Packages\/InterchangeData-0.4.3\/",
+    "704B817219E4CBC31AA92368EF54A4E2835A8C3D" : "Kick-OFF\/kick-off\/Packages\/OperatingSystem-0.4.2\/",
+    "1E72C4C11736864B9AA36A7CE5A7583666A1B027" : "Kick-OFF\/kick-off\/Packages\/SHA2-0.1.0\/",
+    "AB3B39DF79E140C049FAA89F0028F2088162E212" : "Kick-OFF\/kick-off\/Packages\/CryptoEssentials-0.2.1\/",
+    "287F3CCB1287376788CD8C8A6441419AFFC4A554" : "Kick-OFF\/kick-off\/Packages\/HMAC-0.3.1\/",
+    "10A2CB6C4392F0E306FF8D509BE5E88232276EA4" : "Kick-OFF\/kick-off\/Packages\/String-0.4.3\/",
+    "BC4F18C8C7F08249E9651E82076CAED54BEAADF7" : "Kick-OFF\/kick-off\/Packages\/JSON-0.4.2\/",
+    "4F6C23CD1048E3CB9DF672911A1E48E51B1B842D" : "Kick-OFF\/kick-off\/Packages\/VaporZewoMustache-0.2.0\/",
+    "5DDE0C169B6641DADA4E49B6D2FEDC4BD36031E7" : "Kick-OFF\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Kick-OFF",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "kick-off\/Kick-OFF.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Zewo\/String.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "10A2CB6C4392F0E306FF8D509BE5E88232276EA4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CryptoKitten\/SHA2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1E72C4C11736864B9AA36A7CE5A7583666A1B027"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CryptoKitten\/HMAC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "287F3CCB1287376788CD8C8A6441419AFFC4A554"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/qutheory\/vapor-zewo-mustache.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4F6C23CD1048E3CB9DF672911A1E48E51B1B842D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/FOL-App-Devs\/Kick-OFF.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5DDE0C169B6641DADA4E49B6D2FEDC4BD36031E7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Zewo\/OS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "704B817219E4CBC31AA92368EF54A4E2835A8C3D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SwiftX\/C7.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8D2296B3978D73F29F92A5319CC4250CE078B90B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Zewo\/InterchangeData.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "901D39F10963DCBC990E02C949E08901C0DDB8E3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CryptoKitten\/CryptoEssentials.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AB3B39DF79E140C049FAA89F0028F2088162E212"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Zewo\/JSON.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC4F18C8C7F08249E9651E82076CAED54BEAADF7"
+    }
+  ]
+}

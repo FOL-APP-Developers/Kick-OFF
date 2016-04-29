@@ -17,7 +17,7 @@
                BlueprintIdentifier = "______Target_App"
                BuildableName = "App"
                BlueprintName = "App"
-               ReferencedContainer = "container:VaporApp.xcodeproj">
+               ReferencedContainer = "container:Kick-OFF.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "______Target_App"
             BuildableName = "App"
             BlueprintName = "App"
-            ReferencedContainer = "container:VaporApp.xcodeproj">
+            ReferencedContainer = "container:Kick-OFF.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "______Target_App"
             BuildableName = "App"
             BlueprintName = "App"
-            ReferencedContainer = "container:VaporApp.xcodeproj">
+            ReferencedContainer = "container:Kick-OFF.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -87,7 +87,7 @@
             BlueprintIdentifier = "______Target_App"
             BuildableName = "App"
             BlueprintName = "App"
-            ReferencedContainer = "container:VaporApp.xcodeproj">
+            ReferencedContainer = "container:Kick-OFF.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

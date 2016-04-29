@@ -1848,7 +1848,7 @@
 			attributes = {
 				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "VaporApp" */;
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "Kick-OFF" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -2990,7 +2990,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		"___RootConfs_" /* Build configuration list for PBXProject "VaporApp" */ = {
+		"___RootConfs_" /* Build configuration list for PBXProject "Kick-OFF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				"_______Debug_" /* Debug */,
