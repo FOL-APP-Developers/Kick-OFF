@@ -1,0 +1,203 @@
+{
+	"id": "14a8e9b1-7265-730e-46b3-5cb1727e2485",
+	"name": "Kick-Off",
+	"description": "",
+	"order": [
+		"c771ace1-a915-13c0-dee4-f4cd77e3757a",
+		"4ad13328-1458-1af2-87ff-7abb3464f3db",
+		"56b97d35-b172-f1aa-0725-cc15e3ea9ced",
+		"ce6fc69c-2cae-c987-8c4d-7fcc814056fa",
+		"40114c24-a098-a684-27f0-2ba3b34cd1a6",
+		"16197857-f834-3f48-b11d-2a7409bc9f0d",
+		"3d35d19d-3b37-89ac-53c2-75bdc2272d24"
+	],
+	"folders": [],
+	"timestamp": 1461935618782,
+	"owner": "",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "16197857-f834-3f48-b11d-2a7409bc9f0d",
+			"headers": "",
+			"url": "http://localhost:8080/block",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "14a8e9b1-7265-730e-46b3-5cb1727e2485",
+			"data": [
+				{
+					"key": "begin",
+					"value": "416835186",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "end",
+					"value": "484616846",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Richard",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "reason",
+					"value": "User Tests",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Block Time",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1461935802372,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "3d35d19d-3b37-89ac-53c2-75bdc2272d24",
+			"headers": "",
+			"url": "http://localhost:8080/delete?id=R252",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "14a8e9b1-7265-730e-46b3-5cb1727e2485",
+			"data": null,
+			"dataMode": "params",
+			"name": "Delete Event",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1461936634672,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "40114c24-a098-a684-27f0-2ba3b34cd1a6",
+			"headers": "",
+			"url": "http://localhost:8080/reserve",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "time",
+					"value": "15813516",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Eddy",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "player",
+					"value": "Alex, Lucas, Peter",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1461935735635,
+			"name": "Reserve Game",
+			"description": "",
+			"collectionId": "14a8e9b1-7265-730e-46b3-5cb1727e2485",
+			"responses": []
+		},
+		{
+			"id": "4ad13328-1458-1af2-87ff-7abb3464f3db",
+			"headers": "",
+			"url": "http://localhost:8080/available?time=83487364",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "14a8e9b1-7265-730e-46b3-5cb1727e2485",
+			"data": null,
+			"dataMode": "params",
+			"name": "Available Check for Time",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1461935956091,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "56b97d35-b172-f1aa-0725-cc15e3ea9ced",
+			"headers": "",
+			"url": "http://localhost:8080/reservations",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "14a8e9b1-7265-730e-46b3-5cb1727e2485",
+			"data": null,
+			"dataMode": "params",
+			"name": "Check Reservations for Today",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1461935902630,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c771ace1-a915-13c0-dee4-f4cd77e3757a",
+			"headers": "",
+			"url": "http://localhost:8080/available",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1461935915715,
+			"name": "Available Check For Now",
+			"description": "",
+			"collectionId": "14a8e9b1-7265-730e-46b3-5cb1727e2485",
+			"responses": []
+		},
+		{
+			"id": "ce6fc69c-2cae-c987-8c4d-7fcc814056fa",
+			"headers": "",
+			"url": "http://localhost:8080/reservations?time=16816813",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "14a8e9b1-7265-730e-46b3-5cb1727e2485",
+			"data": null,
+			"dataMode": "params",
+			"name": "Check Reservartions for Date",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1461935865933,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
