@@ -4,7 +4,7 @@ import Fluent
 
 class Blocker: Model {
     static var entity: String = "Blocker"
-    var id: String?
+    var id: String? = "idString"
     private var name: String?
     private var begin: Int?
     private var end: Int?
@@ -21,7 +21,6 @@ class Blocker: Model {
     }
     
     required init(serialized: [String: Value]) {
-        self.id = nil
         self.name = serialized["name"]?.string
         self.begin = serialized["begin"]?.int
         self.end =  serialized["end"]?.int
@@ -30,6 +29,10 @@ class Blocker: Model {
 }
 
 let app = Application()
+if let driver = try? SQLiteDriver() {
+    Database.driver = driver
+}
+
 
 app.get("available") { request in
     return "Request: \(request)"
@@ -62,7 +65,6 @@ app.post("block") { request in
     let blocker = Blocker(serialized: blockerDict)
     
     if let result = try? blocker.save() {
-        print(try? Query<Blocker>().all())
         return Json(["success": true])
     } else {
         return Json(["success": false])
