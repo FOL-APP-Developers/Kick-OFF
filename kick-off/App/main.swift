@@ -1,5 +1,4 @@
 import Vapor
-import VaporZewoMustache
 
 let app = Application()
 
@@ -8,11 +7,26 @@ app.get("available") { request in
 }
 
 app.post("reserve") { request in
-    return "Request: \(request)"
+    guard let json = request.data.json,
+        let name = json["name"],
+        let timestamp = json["time"],
+        let players = json["players"] else {
+            return Json(["error": "unspecified"])
+    }
+    
+    return Json(["success": true])
 }
 
 app.post("block") { request in
-    return "Request: \(request)"
+    guard let json = request.data.json,
+        let name = json["name"],
+        let begin = json["begin"],
+        let end = json["end"],
+        let reason = json["reason"] else {
+        return Json(["error": "unspecified"])
+    }
+
+    return Json(["success": true])
 }
 
 app.get("reservations") { request in
@@ -22,6 +36,6 @@ app.get("reservations") { request in
 app.delete("delete") { request in
     return "Request: \(request)"
 }
-    
+
 print("Visit http://localhost:8080")
 app.start(port: 8080)
