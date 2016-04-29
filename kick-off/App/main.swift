@@ -1,6 +1,7 @@
 import Vapor
 import VaporZewoMustache
 import Fluent
+import FluentSQLite
 
 class Blocker: Model {
     static var entity: String = "Blocker"

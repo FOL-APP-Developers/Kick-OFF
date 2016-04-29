@@ -23,6 +23,7 @@
 		6B1D829D1CD3D03D0038A5A1 /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1D828D1CD3D03D0038A5A1 /* libString.dylib */; };
 		6B1D829E1CD3D03D0038A5A1 /* libVapor.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1D828E1CD3D03D0038A5A1 /* libVapor.dylib */; };
 		6B1D829F1CD3D03D0038A5A1 /* libVaporZewoMustache.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1D828F1CD3D03D0038A5A1 /* libVaporZewoMustache.dylib */; };
+		6B1D82A11CD3D2C60038A5A1 /* libFluentSQLite.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1D82A01CD3D2C60038A5A1 /* libFluentSQLite.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		6B1D828D1CD3D03D0038A5A1 /* libString.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libString.dylib; path = Libs/libString.dylib; sourceTree = "<group>"; };
 		6B1D828E1CD3D03D0038A5A1 /* libVapor.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libVapor.dylib; path = Libs/libVapor.dylib; sourceTree = "<group>"; };
 		6B1D828F1CD3D03D0038A5A1 /* libVaporZewoMustache.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libVaporZewoMustache.dylib; path = Libs/libVaporZewoMustache.dylib; sourceTree = "<group>"; };
+		6B1D82A01CD3D2C60038A5A1 /* libFluentSQLite.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libFluentSQLite.dylib; path = Libs/libFluentSQLite.dylib; sourceTree = "<group>"; };
 		762F579A1CD36BB300372DAC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/C7-0.2.0/Tests/C7/ExampleTests.swift" /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			files = (
 				6B1D829B1CD3D03D0038A5A1 /* libSHA2.dylib in Frameworks */,
 				6B1D82981CD3D03D0038A5A1 /* libMustache.dylib in Frameworks */,
+				6B1D82A11CD3D2C60038A5A1 /* libFluentSQLite.dylib in Frameworks */,
 				6B1D82971CD3D03D0038A5A1 /* libJSON.dylib in Frameworks */,
 				6B1D82921CD3D03D0038A5A1 /* libData.dylib in Frameworks */,
 				6B1D82951CD3D03D0038A5A1 /* libHummingbird.dylib in Frameworks */,
@@ -97,6 +100,7 @@
 		6B1D825F1CD3CF970038A5A1 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				6B1D82A01CD3D2C60038A5A1 /* libFluentSQLite.dylib */,
 				6B1D82801CD3D03D0038A5A1 /* libC7.dylib */,
 				6B1D82811CD3D03D0038A5A1 /* libCryptoEssentials.dylib */,
 				6B1D82821CD3D03D0038A5A1 /* libData.dylib */,

@@ -12,6 +12,7 @@ let package = Package(
         "Public",
         "Resources",
 		"Tests",
-		"Database"
+		"Database",
+		"Libs"
     ]
 )
