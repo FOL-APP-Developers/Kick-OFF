@@ -470,7 +470,6 @@
 		6B8784071CD3AEB200F56388 /* SQLite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLite.swift; sourceTree = "<group>"; };
 		6B8784091CD3AEC900F56388 /* SQLiteDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDriver.swift; sourceTree = "<group>"; };
 		6B87840B1CD3AF2600F56388 /* Fluent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Fluent.xcodeproj; path = "Packages/Fluent-0.2.2/Fluent.xcodeproj"; sourceTree = "<group>"; };
-		6B87841E1CD3B02000F56388 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.map; path = "Packages/CSQLite-0.1.0/module.map"; sourceTree = "<group>"; };
 		762F579A1CD36BB300372DAC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Controllers/UserController.swift /* Controllers/UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers/UserController.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Middleware/SampleMiddleware.swift; sourceTree = "<group>"; };
@@ -972,14 +971,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B87841D1CD3B00D00F56388 /* CSQLiteMac */ = {
-			isa = PBXGroup;
-			children = (
-				6B87841E1CD3B02000F56388 /* module.map */,
-			);
-			name = CSQLiteMac;
-			sourceTree = "<group>";
-		};
 		762F57971CD36BB300372DAC /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -1042,7 +1033,6 @@
 		"_____Sources_" /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				6B87841D1CD3B00D00F56388 /* CSQLiteMac */,
 				"_______Group_C7" /* C7 */,
 				"_______Group_S4" /* S4 */,
 				"_______Group_OperatingSystem" /* OperatingSystem */,

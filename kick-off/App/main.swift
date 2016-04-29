@@ -2,24 +2,32 @@ import Vapor
 import VaporZewoMustache
 import Fluent
 
-class Blub: Model {
-    static var entity: String = "blub"
+class Blocker: Model {
+    static var entity: String = "Blocker"
     var id: String?
+    private var name: String?
+    private var begin: Int?
+    private var end: Int?
+    private var reason: String?
     
     func serialize() -> [String: Value?] {
-        return [:]
+        return [
+            "id": id,
+            "name": name,
+            "begin": begin,
+            "end": end,
+            "reason": reason
+        ]
     }
     
     required init(serialized: [String: Value]) {
-        
+        self.id = nil
+        self.name = serialized["name"]?.string
+        self.begin = serialized["begin"]?.int
+        self.end =  serialized["end"]?.int
+        self.reason = serialized["reason"]?.string
     }
 }
-
-let blub = Blub(serialized: ["foo": "bar"])
-
-let to = Query<Blub>()
-
-try? to.save(blub)
 
 let app = Application()
 
@@ -40,14 +48,25 @@ app.post("reserve") { request in
 
 app.post("block") { request in
     guard let json = request.data.json,
-        let name = json["name"],
-        let begin = json["begin"],
-        let end = json["end"],
-        let reason = json["reason"] else {
+        let name = json["name"]?.string,
+        let begin = json["begin"]?.int,
+        let end = json["end"]?.int,
+        let reason = json["reason"]?.string else {
         return Json(["error": "unspecified"])
     }
-
-    return Json(["success": true])
+    
+    let blockerDict:[String: Value] = ["name": name,
+                       "begin": begin,
+                       "end": end,
+                       "reason": reason]
+    let blocker = Blocker(serialized: blockerDict)
+    
+    if let result = try? blocker.save() {
+        print(try? Query<Blocker>().all())
+        return Json(["success": true])
+    } else {
+        return Json(["success": false])
+    }
 }
 
 app.get("reservations") { request in
