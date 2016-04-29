@@ -16,6 +16,9 @@
 		6B8784021CD38C2800F56388 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8783FD1CD38C2800F56388 /* JSONParser.swift */; };
 		6B8784031CD38C2800F56388 /* JSONSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8783FE1CD38C2800F56388 /* JSONSerializer.swift */; };
 		6B8784051CD38C6B00F56388 /* libc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8784041CD38C6B00F56388 /* libc.swift */; };
+		6B8784081CD3AEB200F56388 /* SQLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8784071CD3AEB200F56388 /* SQLite.swift */; };
+		6B87840A1CD3AEC900F56388 /* SQLiteDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8784091CD3AEC900F56388 /* SQLiteDriver.swift */; };
+		6B87841C1CD3AF4900F56388 /* libFluent.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8784131CD3AF2600F56388 /* libFluent.dylib */; };
 		C3DBDBA01CB5FF450077DB3A /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
 		C3DBDBA11CB5FF450077DB3A /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
 		C3DBDBA21CB5FF450077DB3A /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
@@ -308,6 +311,41 @@
 			remoteGlobalIDString = "______Target_C7";
 			remoteInfo = C7;
 		};
+		6B8784121CD3AF2600F56388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B87840B1CD3AF2600F56388 /* Fluent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "_____Product_Fluent";
+			remoteInfo = Fluent;
+		};
+		6B8784141CD3AF2600F56388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B87840B1CD3AF2600F56388 /* Fluent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "_____Product_FluentDev";
+			remoteInfo = FluentDev;
+		};
+		6B8784161CD3AF2600F56388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B87840B1CD3AF2600F56388 /* Fluent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "_____Product_libc";
+			remoteInfo = libc;
+		};
+		6B8784181CD3AF2600F56388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B87840B1CD3AF2600F56388 /* Fluent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "_____Product_FluentTestSuite";
+			remoteInfo = Fluent.testsuite;
+		};
+		6B87841A1CD3AF4300F56388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B87840B1CD3AF2600F56388 /* Fluent.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Fluent";
+			remoteInfo = Fluent;
+		};
 		C3DBDC061CB5FF460077DB3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
@@ -429,6 +467,10 @@
 		6B8783FD1CD38C2800F56388 /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONParser.swift; path = "Packages/JSON-0.4.2/Source/JSONParser.swift"; sourceTree = SOURCE_ROOT; };
 		6B8783FE1CD38C2800F56388 /* JSONSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONSerializer.swift; path = "Packages/JSON-0.4.2/Source/JSONSerializer.swift"; sourceTree = SOURCE_ROOT; };
 		6B8784041CD38C6B00F56388 /* libc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = libc.swift; sourceTree = "<group>"; };
+		6B8784071CD3AEB200F56388 /* SQLite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLite.swift; sourceTree = "<group>"; };
+		6B8784091CD3AEC900F56388 /* SQLiteDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDriver.swift; sourceTree = "<group>"; };
+		6B87840B1CD3AF2600F56388 /* Fluent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Fluent.xcodeproj; path = "Packages/Fluent-0.2.2/Fluent.xcodeproj"; sourceTree = "<group>"; };
+		6B87841E1CD3B02000F56388 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.map; path = "Packages/CSQLite-0.1.0/module.map"; sourceTree = "<group>"; };
 		762F579A1CD36BB300372DAC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Controllers/UserController.swift /* Controllers/UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers/UserController.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Middleware/SampleMiddleware.swift; sourceTree = "<group>"; };
@@ -630,6 +672,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
+				6B87841C1CD3AF4900F56388 /* libFluent.dylib in Frameworks */,
 				C3DBDBF71CB5FF450077DB3A /* libData.dylib in Frameworks */,
 				C3DBDBF81CB5FF450077DB3A /* libCryptoEssentials.dylib in Frameworks */,
 				C3DBDBF91CB5FF450077DB3A /* libStrand.dylib in Frameworks */,
@@ -909,9 +952,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B8784061CD3AE3900F56388 /* FluentSQLite */ = {
+			isa = PBXGroup;
+			children = (
+				6B8784091CD3AEC900F56388 /* SQLiteDriver.swift */,
+				6B8784071CD3AEB200F56388 /* SQLite.swift */,
+			);
+			name = FluentSQLite;
+			sourceTree = "<group>";
+		};
+		6B87840C1CD3AF2600F56388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B8784131CD3AF2600F56388 /* libFluent.dylib */,
+				6B8784151CD3AF2600F56388 /* FluentDev */,
+				6B8784171CD3AF2600F56388 /* liblibc.dylib */,
+				6B8784191CD3AF2600F56388 /* Fluent.testsuite.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B87841D1CD3B00D00F56388 /* CSQLiteMac */ = {
+			isa = PBXGroup;
+			children = (
+				6B87841E1CD3B02000F56388 /* module.map */,
+			);
+			name = CSQLiteMac;
+			sourceTree = "<group>";
+		};
 		762F57971CD36BB300372DAC /* App */ = {
 			isa = PBXGroup;
 			children = (
+				6B8784061CD3AE3900F56388 /* FluentSQLite */,
 				762F579A1CD36BB300372DAC /* main.swift */,
 			);
 			path = App;
@@ -936,6 +1008,7 @@
 				"_____Sources_" /* Sources */,
 				"_______Tests_" /* Tests */,
 				"____Products_" /* Products */,
+				6B87840B1CD3AF2600F56388 /* Fluent.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -969,6 +1042,7 @@
 		"_____Sources_" /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				6B87841D1CD3B00D00F56388 /* CSQLiteMac */,
 				"_______Group_C7" /* C7 */,
 				"_______Group_S4" /* S4 */,
 				"_______Group_OperatingSystem" /* OperatingSystem */,
@@ -1365,6 +1439,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				6B87841B1CD3AF4300F56388 /* PBXTargetDependency */,
 				__Dependency_Data /* PBXTargetDependency */,
 				__Dependency_CryptoEssentials /* PBXTargetDependency */,
 				__Dependency_Strand /* PBXTargetDependency */,
@@ -1858,6 +1933,12 @@
 			mainGroup = "___RootGroup_";
 			productRefGroup = "____Products_" /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6B87840C1CD3AF2600F56388 /* Products */;
+					ProjectRef = 6B87840B1CD3AF2600F56388 /* Fluent.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				"______Target_C7" /* C7 */,
@@ -1887,12 +1968,45 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		6B8784131CD3AF2600F56388 /* libFluent.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libFluent.dylib;
+			remoteRef = 6B8784121CD3AF2600F56388 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6B8784151CD3AF2600F56388 /* FluentDev */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = FluentDev;
+			remoteRef = 6B8784141CD3AF2600F56388 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6B8784171CD3AF2600F56388 /* liblibc.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = liblibc.dylib;
+			remoteRef = 6B8784161CD3AF2600F56388 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6B8784191CD3AF2600F56388 /* Fluent.testsuite.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Fluent.testsuite.xctest;
+			remoteRef = 6B8784181CD3AF2600F56388 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CompilePhase_App /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				6B87840A1CD3AEC900F56388 /* SQLiteDriver.swift in Sources */,
 				__src_cc_ref_App/main.swift /* main.swift in Sources */,
+				6B8784081CD3AEB200F56388 /* SQLite.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2229,6 +2343,11 @@
 			target = "______Target_C7" /* C7 */;
 			targetProxy = 6B8783F21CD38BA400F56388 /* PBXContainerItemProxy */;
 		};
+		6B87841B1CD3AF4300F56388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fluent;
+			targetProxy = 6B87841A1CD3AF4300F56388 /* PBXContainerItemProxy */;
+		};
 		__Dependency_C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_C7" /* C7 */;
@@ -2323,6 +2442,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Packages/CSQLite-0.1.0";
 			};
 			name = Release;
 		};
@@ -2643,6 +2763,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Packages/CSQLite-0.1.0";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
